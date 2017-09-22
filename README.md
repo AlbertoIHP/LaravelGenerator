@@ -80,7 +80,8 @@ localhost:8000
 localhost:8000/api/users
 ```
 
-## Para que swagervel funcione en el try it out es necesario añadir a la ruta de la api /v1 a cada ruta declarada en routes/api.php
+## Para que swaggervel funcione en el "try it out" 
+## es necesario añadir a la ruta de la api /v1 a cada ruta declarada en routes/api.php
 
 ```
 Antes: Route::resource('users', 'UserAPIController');
