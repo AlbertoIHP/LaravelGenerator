@@ -7,7 +7,7 @@ composer install
 ```
  
 ## Crear fichero .env utilizando .env
-## Agregar a .env la base de datos, usuario y contraseña donde se leeran los esquemas y
+## Agregar a .env la base de datos, usuario y contraseña donde se leeran los esquemas 
 ```
 APP_NAME=Laravel
 APP_ENV=local
