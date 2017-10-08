@@ -10,9 +10,9 @@ class ComposerStaticInitc98114e34d9938c8dedce5af8f247acc
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '1d1b89d124cc9cb8219922c9d5569199' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest.php',
+        'bd9634f2d41831496de0d3dfe4c94881' => __DIR__ . '/..' . '/symfony/polyfill-php56/bootstrap.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
-        'bd9634f2d41831496de0d3dfe4c94881' => __DIR__ . '/..' . '/symfony/polyfill-php56/bootstrap.php',
         '0ccdf99b8f62f02c52cba55802e0c2e7' => __DIR__ . '/..' . '/zircote/swagger-php/src/functions.php',
         'f18cc91337d49233e5754e93f3ed9ec3' => __DIR__ . '/..' . '/laravelcollective/html/src/helpers.php',
         'e23faeee409e941dc9b4c80386209c39' => __DIR__ . '/..' . '/laracasts/flash/src/Laracasts/Flash/functions.php',
@@ -41,6 +41,7 @@ class ComposerStaticInitc98114e34d9938c8dedce5af8f247acc
         ),
         'T' => 
         array (
+            'Tymon\\JWTAuth\\' => 14,
             'TijsVerkoyen\\CssToInlineStyles\\' => 31,
             'Tests\\' => 6,
         ),
@@ -76,6 +77,10 @@ class ComposerStaticInitc98114e34d9938c8dedce5af8f247acc
             'Prettus\\Validator\\' => 18,
             'Prettus\\Repository\\' => 19,
             'PhpParser\\' => 10,
+        ),
+        'N' => 
+        array (
+            'Namshi\\JOSE\\' => 12,
         ),
         'M' => 
         array (
@@ -115,6 +120,7 @@ class ComposerStaticInitc98114e34d9938c8dedce5af8f247acc
         'B' => 
         array (
             'Barryvdh\\LaravelIdeHelper\\' => 26,
+            'Barryvdh\\Cors\\' => 14,
         ),
         'A' => 
         array (
@@ -142,6 +148,10 @@ class ComposerStaticInitc98114e34d9938c8dedce5af8f247acc
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Tymon\\JWTAuth\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/tymon/jwt-auth/src',
         ),
         'TijsVerkoyen\\CssToInlineStyles\\' => 
         array (
@@ -247,6 +257,10 @@ class ComposerStaticInitc98114e34d9938c8dedce5af8f247acc
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
+        'Namshi\\JOSE\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
@@ -318,6 +332,10 @@ class ComposerStaticInitc98114e34d9938c8dedce5af8f247acc
         'Barryvdh\\LaravelIdeHelper\\' => 
         array (
             0 => __DIR__ . '/..' . '/barryvdh/laravel-ide-helper/src',
+        ),
+        'Barryvdh\\Cors\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/barryvdh/laravel-cors/src',
         ),
         'App\\' => 
         array (
@@ -428,6 +446,12 @@ class ComposerStaticInitc98114e34d9938c8dedce5af8f247acc
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'Appointer\\Swaggervel\\Http\\Controllers\\SwaggervelController' => __DIR__ . '/..' . '/appointer/swaggervel/src/Appointer/Swaggervel/Http/Controllers/SwaggervelController.php',
         'Appointer\\Swaggervel\\SwaggervelServiceProvider' => __DIR__ . '/..' . '/appointer/swaggervel/src/Appointer/Swaggervel/SwaggervelServiceProvider.php',
+        'Barryvdh\\Cors\\CorsService' => __DIR__ . '/..' . '/barryvdh/laravel-cors/src/CorsService.php',
+        'Barryvdh\\Cors\\HandleCors' => __DIR__ . '/..' . '/barryvdh/laravel-cors/src/HandleCors.php',
+        'Barryvdh\\Cors\\HandlePreflight' => __DIR__ . '/..' . '/barryvdh/laravel-cors/src/HandlePreflight.php',
+        'Barryvdh\\Cors\\LumenServiceProvider' => __DIR__ . '/..' . '/barryvdh/laravel-cors/src/LumenServiceProvider.php',
+        'Barryvdh\\Cors\\OriginMatcher' => __DIR__ . '/..' . '/barryvdh/laravel-cors/src/OriginMatcher.php',
+        'Barryvdh\\Cors\\ServiceProvider' => __DIR__ . '/..' . '/barryvdh/laravel-cors/src/ServiceProvider.php',
         'Barryvdh\\LaravelIdeHelper\\Alias' => __DIR__ . '/..' . '/barryvdh/laravel-ide-helper/src/Alias.php',
         'Barryvdh\\LaravelIdeHelper\\Console\\GeneratorCommand' => __DIR__ . '/..' . '/barryvdh/laravel-ide-helper/src/Console/GeneratorCommand.php',
         'Barryvdh\\LaravelIdeHelper\\Console\\MetaCommand' => __DIR__ . '/..' . '/barryvdh/laravel-ide-helper/src/Console/MetaCommand.php',
@@ -471,6 +495,8 @@ class ComposerStaticInitc98114e34d9938c8dedce5af8f247acc
         'Collective\\Html\\HtmlBuilder' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlBuilder.php',
         'Collective\\Html\\HtmlFacade' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlFacade.php',
         'Collective\\Html\\HtmlServiceProvider' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlServiceProvider.php',
+        'CorsKernel' => __DIR__ . '/..' . '/barryvdh/laravel-cors/tests/CorsKernel.php',
+        'CorsServiceTest' => __DIR__ . '/..' . '/barryvdh/laravel-cors/tests/CorsServiceTest.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
@@ -1294,6 +1320,8 @@ class ComposerStaticInitc98114e34d9938c8dedce5af8f247acc
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',
+        'GlobalMiddlewareTest' => __DIR__ . '/..' . '/barryvdh/laravel-cors/tests/GlobalMiddlewareTest.php',
+        'GroupMiddlewareTest' => __DIR__ . '/..' . '/barryvdh/laravel-cors/tests/GroupMiddlewareTest.php',
         'Hamcrest\\Arrays\\IsArray' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
         'Hamcrest\\Arrays\\IsArrayContaining' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
         'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',
@@ -2218,6 +2246,7 @@ class ComposerStaticInitc98114e34d9938c8dedce5af8f247acc
         'Maatwebsite\\Excel\\Readers\\LaravelExcelReader' => __DIR__ . '/..' . '/maatwebsite/excel/src/Maatwebsite/Excel/Readers/LaravelExcelReader.php',
         'Maatwebsite\\Excel\\Writers\\CellWriter' => __DIR__ . '/..' . '/maatwebsite/excel/src/Maatwebsite/Excel/Writers/CellWriter.php',
         'Maatwebsite\\Excel\\Writers\\LaravelExcelWriter' => __DIR__ . '/..' . '/maatwebsite/excel/src/Maatwebsite/Excel/Writers/LaravelExcelWriter.php',
+        'MockApp' => __DIR__ . '/..' . '/barryvdh/laravel-cors/tests/CorsServiceTest.php',
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
         'Mockery\\Adapter\\Phpunit\\MockeryTestCase' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php',
@@ -2372,6 +2401,33 @@ class ComposerStaticInitc98114e34d9938c8dedce5af8f247acc
         'Monolog\\Processor\\UidProcessor' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Processor/UidProcessor.php',
         'Monolog\\Processor\\WebProcessor' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Processor/WebProcessor.php',
         'Monolog\\Registry' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Registry.php',
+        'Namshi\\JOSE\\Base64\\Base64Encoder' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Base64/Base64Encoder.php',
+        'Namshi\\JOSE\\Base64\\Base64UrlSafeEncoder' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Base64/Base64UrlSafeEncoder.php',
+        'Namshi\\JOSE\\Base64\\Encoder' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Base64/Encoder.php',
+        'Namshi\\JOSE\\JWS' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/JWS.php',
+        'Namshi\\JOSE\\JWT' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/JWT.php',
+        'Namshi\\JOSE\\Signer\\OpenSSL\\ECDSA' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/ECDSA.php',
+        'Namshi\\JOSE\\Signer\\OpenSSL\\ES256' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/ES256.php',
+        'Namshi\\JOSE\\Signer\\OpenSSL\\ES384' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/ES384.php',
+        'Namshi\\JOSE\\Signer\\OpenSSL\\ES512' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/ES512.php',
+        'Namshi\\JOSE\\Signer\\OpenSSL\\HMAC' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/HMAC.php',
+        'Namshi\\JOSE\\Signer\\OpenSSL\\HS256' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/HS256.php',
+        'Namshi\\JOSE\\Signer\\OpenSSL\\HS384' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/HS384.php',
+        'Namshi\\JOSE\\Signer\\OpenSSL\\HS512' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/HS512.php',
+        'Namshi\\JOSE\\Signer\\OpenSSL\\None' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/None.php',
+        'Namshi\\JOSE\\Signer\\OpenSSL\\PublicKey' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/PublicKey.php',
+        'Namshi\\JOSE\\Signer\\OpenSSL\\RS256' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/RS256.php',
+        'Namshi\\JOSE\\Signer\\OpenSSL\\RS384' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/RS384.php',
+        'Namshi\\JOSE\\Signer\\OpenSSL\\RS512' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/RS512.php',
+        'Namshi\\JOSE\\Signer\\OpenSSL\\RSA' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/OpenSSL/RSA.php',
+        'Namshi\\JOSE\\Signer\\SecLib\\PublicKey' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/SecLib/PublicKey.php',
+        'Namshi\\JOSE\\Signer\\SecLib\\RS256' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/SecLib/RS256.php',
+        'Namshi\\JOSE\\Signer\\SecLib\\RS384' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/SecLib/RS384.php',
+        'Namshi\\JOSE\\Signer\\SecLib\\RS512' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/SecLib/RS512.php',
+        'Namshi\\JOSE\\Signer\\SecLib\\RSA' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/SecLib/RSA.php',
+        'Namshi\\JOSE\\Signer\\SignerInterface' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/Signer/SignerInterface.php',
+        'Namshi\\JOSE\\SimpleJWS' => __DIR__ . '/..' . '/namshi/jose/src/Namshi/JOSE/SimpleJWS.php',
+        'OriginMatcherTest' => __DIR__ . '/..' . '/barryvdh/laravel-cors/tests/OriginMatcherTest.php',
         'PHPExcel' => __DIR__ . '/..' . '/phpoffice/phpexcel/Classes/PHPExcel.php',
         'PHPExcel_Autoloader' => __DIR__ . '/..' . '/phpoffice/phpexcel/Classes/PHPExcel/Autoloader.php',
         'PHPExcel_Best_Fit' => __DIR__ . '/..' . '/phpoffice/phpexcel/Classes/PHPExcel/Shared/trend/bestFitClass.php',
@@ -3158,6 +3214,7 @@ class ComposerStaticInitc98114e34d9938c8dedce5af8f247acc
         'PhpParser\\Serializer\\XML' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Serializer/XML.php',
         'PhpParser\\Unserializer' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Unserializer.php',
         'PhpParser\\Unserializer\\XML' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Unserializer/XML.php',
+        'PreflightTest' => __DIR__ . '/..' . '/barryvdh/laravel-cors/tests/PreflightTest.php',
         'Prettus\\Repository\\Contracts\\CacheableInterface' => __DIR__ . '/..' . '/prettus/l5-repository/src/Prettus/Repository/Contracts/CacheableInterface.php',
         'Prettus\\Repository\\Contracts\\CriteriaInterface' => __DIR__ . '/..' . '/prettus/l5-repository/src/Prettus/Repository/Contracts/CriteriaInterface.php',
         'Prettus\\Repository\\Contracts\\Presentable' => __DIR__ . '/..' . '/prettus/l5-repository/src/Prettus/Repository/Contracts/Presentable.php',
@@ -4162,6 +4219,7 @@ class ComposerStaticInitc98114e34d9938c8dedce5af8f247acc
         'Symfony\\Polyfill\\Util\\BinaryNoFuncOverload' => __DIR__ . '/..' . '/symfony/polyfill-util/BinaryNoFuncOverload.php',
         'Symfony\\Polyfill\\Util\\BinaryOnFuncOverload' => __DIR__ . '/..' . '/symfony/polyfill-util/BinaryOnFuncOverload.php',
         'Symfony\\Polyfill\\Util\\TestListener' => __DIR__ . '/..' . '/symfony/polyfill-util/TestListener.php',
+        'TestCase' => __DIR__ . '/..' . '/barryvdh/laravel-cors/tests/TestCase.php',
         'Tests\\CreatesApplication' => __DIR__ . '/../..' . '/tests/CreatesApplication.php',
         'Tests\\Feature\\ExampleTest' => __DIR__ . '/../..' . '/tests/Feature/ExampleTest.php',
         'Tests\\TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
@@ -4173,6 +4231,50 @@ class ComposerStaticInitc98114e34d9938c8dedce5af8f247acc
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Property\\Property' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Property/Property.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Processor.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
+        'Tymon\\JWTAuth\\Blacklist' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Blacklist.php',
+        'Tymon\\JWTAuth\\Claims\\Audience' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/Audience.php',
+        'Tymon\\JWTAuth\\Claims\\Claim' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/Claim.php',
+        'Tymon\\JWTAuth\\Claims\\ClaimInterface' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/ClaimInterface.php',
+        'Tymon\\JWTAuth\\Claims\\Custom' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/Custom.php',
+        'Tymon\\JWTAuth\\Claims\\Expiration' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/Expiration.php',
+        'Tymon\\JWTAuth\\Claims\\Factory' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/Factory.php',
+        'Tymon\\JWTAuth\\Claims\\IssuedAt' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/IssuedAt.php',
+        'Tymon\\JWTAuth\\Claims\\Issuer' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/Issuer.php',
+        'Tymon\\JWTAuth\\Claims\\JwtId' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/JwtId.php',
+        'Tymon\\JWTAuth\\Claims\\NotBefore' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/NotBefore.php',
+        'Tymon\\JWTAuth\\Claims\\Subject' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Claims/Subject.php',
+        'Tymon\\JWTAuth\\Commands\\JWTGenerateCommand' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Commands/JWTGenerateCommand.php',
+        'Tymon\\JWTAuth\\Exceptions\\InvalidClaimException' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Exceptions/InvalidClaimException.php',
+        'Tymon\\JWTAuth\\Exceptions\\JWTException' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Exceptions/JWTException.php',
+        'Tymon\\JWTAuth\\Exceptions\\PayloadException' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Exceptions/PayloadException.php',
+        'Tymon\\JWTAuth\\Exceptions\\TokenBlacklistedException' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Exceptions/TokenBlacklistedException.php',
+        'Tymon\\JWTAuth\\Exceptions\\TokenExpiredException' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Exceptions/TokenExpiredException.php',
+        'Tymon\\JWTAuth\\Exceptions\\TokenInvalidException' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Exceptions/TokenInvalidException.php',
+        'Tymon\\JWTAuth\\Facades\\JWTAuth' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Facades/JWTAuth.php',
+        'Tymon\\JWTAuth\\Facades\\JWTFactory' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Facades/JWTFactory.php',
+        'Tymon\\JWTAuth\\JWTAuth' => __DIR__ . '/..' . '/tymon/jwt-auth/src/JWTAuth.php',
+        'Tymon\\JWTAuth\\JWTManager' => __DIR__ . '/..' . '/tymon/jwt-auth/src/JWTManager.php',
+        'Tymon\\JWTAuth\\Middleware\\BaseMiddleware' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Middleware/BaseMiddleware.php',
+        'Tymon\\JWTAuth\\Middleware\\GetUserFromToken' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Middleware/GetUserFromToken.php',
+        'Tymon\\JWTAuth\\Middleware\\RefreshToken' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Middleware/RefreshToken.php',
+        'Tymon\\JWTAuth\\Payload' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Payload.php',
+        'Tymon\\JWTAuth\\PayloadFactory' => __DIR__ . '/..' . '/tymon/jwt-auth/src/PayloadFactory.php',
+        'Tymon\\JWTAuth\\Providers\\Auth\\AuthInterface' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/Auth/AuthInterface.php',
+        'Tymon\\JWTAuth\\Providers\\Auth\\IlluminateAuthAdapter' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/Auth/IlluminateAuthAdapter.php',
+        'Tymon\\JWTAuth\\Providers\\JWTAuthServiceProvider' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/JWTAuthServiceProvider.php',
+        'Tymon\\JWTAuth\\Providers\\JWT\\JWTInterface' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/JWT/JWTInterface.php',
+        'Tymon\\JWTAuth\\Providers\\JWT\\JWTProvider' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/JWT/JWTProvider.php',
+        'Tymon\\JWTAuth\\Providers\\JWT\\NamshiAdapter' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/JWT/NamshiAdapter.php',
+        'Tymon\\JWTAuth\\Providers\\Storage\\IlluminateCacheAdapter' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/Storage/IlluminateCacheAdapter.php',
+        'Tymon\\JWTAuth\\Providers\\Storage\\StorageInterface' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/Storage/StorageInterface.php',
+        'Tymon\\JWTAuth\\Providers\\User\\EloquentUserAdapter' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/User/EloquentUserAdapter.php',
+        'Tymon\\JWTAuth\\Providers\\User\\UserInterface' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Providers/User/UserInterface.php',
+        'Tymon\\JWTAuth\\Token' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Token.php',
+        'Tymon\\JWTAuth\\Utils' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Utils.php',
+        'Tymon\\JWTAuth\\Validators\\AbstractValidator' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Validators/AbstractValidator.php',
+        'Tymon\\JWTAuth\\Validators\\PayloadValidator' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Validators/PayloadValidator.php',
+        'Tymon\\JWTAuth\\Validators\\TokenValidator' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Validators/TokenValidator.php',
+        'Tymon\\JWTAuth\\Validators\\ValidatorInterface' => __DIR__ . '/..' . '/tymon/jwt-auth/src/Validators/ValidatorInterface.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'XdgBaseDir\\Xdg' => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src/Xdg.php',
         'Yajra\\Datatables\\ButtonsServiceProvider' => __DIR__ . '/..' . '/yajra/laravel-datatables-buttons/src/ButtonsServiceProvider.php',
