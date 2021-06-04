@@ -89,8 +89,9 @@ Antes: Route::resource('users', 'UserAPIController');
 Despues: Route::resource('v1/users', 'UserAPIController');
 ```
 
-Execute composer require appointer/swaggervel --dev within your laravel root directory
-Add Appointer\Swaggervel\SwaggervelServiceProvider::class to your providers array in app/config/app.php above your route provider, to avoid any catch-all routes
-Run php artisan vendor:publish --tag=public to push swagger-ui to your public folder (can be found in public/vendor/swaggervel).
-Optionally run php artisan vendor:publish --tag=config to push the swaggervel default config into your application's config directory.
-Optionally run php artisan vendor:publish --tag=views to push the swaggervel index view file into resources/views/vendor/swaggervel.
+## Installation
+- Execute `composer require appointer/swaggervel --dev` within your laravel root directory
+- Add `Appointer\Swaggervel\SwaggervelServiceProvider::class` to your providers array in `app/config/app.php` above your route provider, to avoid any catch-all routes
+- Run `php artisan vendor:publish --tag=public` to push swagger-ui to your public folder (can be found in public/vendor/swaggervel).
+- Optionally run `php artisan vendor:publish --tag=config` to push the swaggervel default config into your application's config directory.
+- Optionally run `php artisan vendor:publish --tag=views` to push the swaggervel index view file into `resources/views/vendor/swaggervel`.
